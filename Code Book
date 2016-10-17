@@ -1,0 +1,16 @@
+x_train, y_train, subject_train : Are the train data coming from the raw input file
+x_test, y_test, subject_test : Are the test data coming from the raw input file
+
+features : Is the features data coming from the raw input file
+
+activityLabels : Is the labels coming from the raw input file
+
+mrg_train : Is the merging of y_train, subject_train, x_train
+mrg_test : Is the merging of y_test, subject_test, x_test
+finalmerge : Is the merging of mrg_train, mrg_test
+
+setForMeanAndStd : Is the final merge with only the information about the measurements on the mean and standard deviation
+
+setWithActivityNames : Is setForMeanAndStd but with the appropriate labels name
+
+TidyData : Is the final data set
